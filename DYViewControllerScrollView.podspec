@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name = 'DYViewControllerScrollView'
-s.version = '1.0.1'
+s.version = '1.0.2'
 s.license = 'MIT'
 s.summary = 'Muti-ViewControllers in ScrollView'
 s.homepage = 'https://github.com/jyl485868/DYVCScrollView'

@@ -19,12 +19,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
-    
     DYViewContollersScrollView *vcScrollView = [[DYViewContollersScrollView alloc] initWithFrame:CGRectMake(0, 20, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
     vcScrollView.backgroundColor = [UIColor whiteColor];
     vcScrollView.titles = (NSMutableArray *)@[@"运动计步",@"血糖检测",@"血压检测",@"体重体脂",@"abc",@"123",@"!@#"];
-    
     
     NSMutableArray *arr = [NSMutableArray new];
     for (int i = 0; i < vcScrollView.titles.count; i ++) {
@@ -36,12 +33,7 @@
     }
     
     vcScrollView.viewControllers = arr;
-    
-    
-    
     [self.view addSubview:vcScrollView];
-    
-    
     
 }
 
